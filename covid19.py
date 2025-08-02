@@ -7,7 +7,7 @@ import plotly.express as px
 st.set_page_config(page_title="Covid-19 Pandemic Dashboard", layout="wide")
 
 # Title
-st.title("🛍️ Covid-19 Pandemic Dashboard")
+st.title("💉 Covid-19 Pandemic Dashboard")
 
 # Load & preprocess data
 df1 = pd.read_csv('day_wise.csv')
