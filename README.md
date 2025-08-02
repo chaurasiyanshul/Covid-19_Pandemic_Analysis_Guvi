@@ -1,6 +1,6 @@
 # Covid-19_Pandemic_Analysis_Guvi
 
-An interactive dashboard built using **Streamlit**, **Pandas**, and **Matplotlib** to visualize retail sales performance across regions, products, and time.
+An interactive dashboard built using **Streamlit**, **Pandas**, and **plotly** to visualize Covid19 pandemic analysis of Daily Cases , Country Cases, Death vs Recovery Rate.
 
 ---
 
@@ -33,7 +33,7 @@ pip install numpy pandas matplotlib streamlit plotly
 ```
 📁 Step 3: Clone the Repository
 ```bash
-git clone https://github.com/shivani983/retail_sales_dashboard_guvi.git
+git clone https://github.com/chaurasiyanshul/Covid-19_Pandemic_Analysis_Guvi.git
 ```
 ▶️ Run the App
 ```bash
