@@ -1,45 +1,75 @@
-# Covid-19_Pandemic_Analysis_Guvi
+# Covid-19 Pandemic Analysis Dashboard
 
-An interactive dashboard built using **Streamlit**, **Pandas**, and **plotly** to visualize Covid19 pandemic analysis of Daily Cases , Country Cases, Death vs Recovery Rate.
-
----
-
-## 🚀 Features
-
-- 📊 Bar Chart: Total Cases by Country 
-- 📈 Line Chart: Daily Cases trend  
-- 🥧 Pie Chart: Recovery vs Death Rate 
-- 📌 KPIs: Total Cases, Death, Recovered 
-- 🧭 Sidebar for switching between visualizations
+An interactive dashboard built using **Streamlit**, **Pandas**, and **Plotly** to visualize Covid-19 pandemic data. The dashboard provides daily case trends, country-wise statistics, and visualizations for recovery and death rates.
 
 ---
 
-## ⚙️ Setup Instructions
+## Features
 
-### 🐍 Step 1: Create Virtual Environment
+- **Bar Chart:** Total Cases by Country
+- **Line Chart:** Daily Cases Trend
+- **Pie Chart:** Recovery vs Death Rate
+- **KPIs:** Total Cases, Deaths, Recovered
+- **Sidebar:** Switch between visualizations
 
-Ensure Python 3.8 is installed.
+---
 
-```bash
-conda create -n mlproj python=3.8 -y
+## Project Structure
+
 ```
-Activate Environment
-```bash
-conda activate mlproj
+country_wise_latest.csv
+day_wise.csv
+covid19.py
+LICENSE
+README.md
 ```
-Step 2: Install Dependencies
-```bash
-pip install numpy pandas matplotlib streamlit plotly
-```
-📁 Step 3: Clone the Repository
-```bash
-git clone https://github.com/chaurasiyanshul/Covid-19_Pandemic_Analysis_Guvi.git
-```
-▶️ Run the App
-```bash
-cd Covid-19_Pandemic_Analysis_Guvi
-```
-```bash
-streamlit run app.py
-```
+
+---
+
+## Requirements
+
+- Python 3.8+
+- Streamlit
+- Pandas
+- Plotly
+- Matplotlib
+
+---
+
+## Setup Instructions
+
+1. **Create a Virtual Environment (Recommended):**
+   ```sh
+   python -m venv venv
+   ```
+   Activate the environment:
+   - On Windows:
+     ```sh
+     venv\Scripts\activate
+     ```
+   - On macOS/Linux:
+     ```sh
+     source venv/bin/activate
+     ```
+
+2. **Install Dependencies:**
+   ```sh
+   pip install streamlit pandas plotly matplotlib
+   ```
+
+3. **Download/Place Data Files:**
+   Ensure `country_wise_latest.csv` and `day_wise.csv` are in the project directory.
+
+---
+
+## How to Run
+
+1. Open a terminal in the project directory.
+2. Run the Streamlit app:
+   ```sh
+   streamlit run covid19.py
+   ```
+3. The dashboard will open in your browser.
+
+---
 
